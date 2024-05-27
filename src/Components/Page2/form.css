@@ -1,0 +1,46 @@
+body{
+    background-color: #80ED99;
+}
+
+.container{
+    background-color: #C7F9CC;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:center;
+    margin-left: 22%;
+    height: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    padding: 70px 10px;
+    max-width: 50vw;
+    font-family: 'Inria Serif', serif;
+    font-size: 1.25em;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:center;
+    width: 90%;
+    
+}
+.container form label{
+    font-size: 1.5em;
+}
+.container form label input{
+    width: 10%;
+}
+.container form #Genre,#BookName,#Price,#submit{
+    background-color: #80ED99;
+    border-radius: 1.625em;
+    height: 3em;
+}
+.container form .Genere,.BookName,.author,.price,.submit{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 4em;
+
+}

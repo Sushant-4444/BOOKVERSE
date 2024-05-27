@@ -1,0 +1,26 @@
+.book-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #C7F9CC;
+    padding: 2em;
+
+}
+
+.book-container .headingbook h1{
+    color: #0C3A2D;
+    font-weight: 500;
+    margin: 2em;
+    /* font-size: 2em; */
+    font-weight: 600;
+}
+
+.book-container .bookcard-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.book-container .bookcard-container>div {
+    flex: 0 0 15%;
+    
+}

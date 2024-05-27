@@ -1,0 +1,46 @@
+.review {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.review-body {
+  margin-bottom: 10px;
+}
+
+.review-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.person {
+  font-weight: bold;
+}
+
+.rating {
+  color: #ff9800;
+}
+
+.book-name {
+  font-weight: bold;
+}
+
+.book-format {
+  color: #9e9e9e;
+}
+
+.content {
+  margin-bottom: 10px;
+}
+
+.year-old {
+  color: #9e9e9e;
+}

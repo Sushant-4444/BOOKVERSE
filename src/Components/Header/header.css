@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+.header{
+    font-family: 'Inria Serif', serif;
+    margin: 0em;
+    padding: 0em;
+}
+nav {
+    background-color: #C7F9CC;
+    color: #0C3A2D;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: 'Marko One', sans-serif;
+    font-weight: bolder;
+    font-size: 1.75rem;
+    margin-left: 2em;
+  }
+  .other_than_logo{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: .25em;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+    padding-left: 2em;
+  }
+  
+  .nav-links li a {
+    color: #0C3A2D;
+    text-decoration: none;
+    padding-left: 1em;
+  }
+  
+  .nav-links li a:hover {
+    color:  #B36618; /* Change color on hover */
+  }

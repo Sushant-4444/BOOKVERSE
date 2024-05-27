@@ -1,0 +1,47 @@
+.desc-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background: #fff;
+    margin: 1em;
+    padding: 1em 2em;
+    /* width : 200px; */
+}
+
+.desc-container .book-details{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 500px;
+}
+.desc-container .book-details .description{
+    color: #0C3A2D;
+    /* font-weight: 500; */
+    /* margin: 2em; */
+    /* font-size: 2em; */
+    /* font-weight: 600; */
+}
+.reviews{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reviews input{
+    width: 80vw;
+    margin: 1em;
+    padding: 1em;
+}
+
+.reviews2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 2em;
+    padding: 2em;
+}

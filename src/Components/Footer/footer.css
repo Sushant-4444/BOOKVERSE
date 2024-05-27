@@ -1,0 +1,56 @@
+/* Footer.css */
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&display=swap');
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45vh;
+    font-family: 'Inria Serif', serif;
+    font-size: 1.25em;
+    flex-wrap: wrap;
+  }
+  
+  .footer-content {
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+  }
+  .footer-content .image{
+    display: flex;
+    width: fit-content;
+  }
+  .footer-content p {
+    margin: 0;
+    
+  }
+  .connectwithus {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 3em;
+  }
+  .icons a{
+    text-decoration: none;
+    color: white;
+  }
+.options,.contactus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contactus h2{
+    margin-top: 0px;
+}
